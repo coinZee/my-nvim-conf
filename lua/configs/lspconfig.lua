@@ -2,7 +2,7 @@ local on_attach = require("nvchad.configs.lspconfig").on_attach
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 -- 1. Setup default servers (using the new list format if supported)
-local servers = { "html", "cssls", "ts_ls", "tailwindcss", "clangd", "pyright", "rust-analyzer", "neocmakelsp" }
+local servers = { "html", "cssls", "ts_ls", "tailwindcss", "clangd", "pyright", "rust_analyzer", "neocmakelsp", "cmake" }
 
 for _, server in ipairs(servers) do
   -- If vim.lsp.enable works for you, you can use a loop like this:
