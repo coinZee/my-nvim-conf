@@ -8,29 +8,29 @@
 local M = {}
 
 M.base46 = {
-	theme = "hazmat",
+	-- theme = "hazmat",
+	theme = "monochrome",
   transparency = false,
-	-- theme = "obsidian-ember",
 	-- theme = "obsidian-ember",
 	-- theme = "monekai",
 
   hl_add = {},
-  hl_override = {
-    -- 1. CURSOR LINE NUMBER (Your existing one)
-    CursorLineNr = { fg = "#FCE566", bold = true },
-
-    -- 2. POPUP MENU SELECTION (The Fix)
-    -- This makes the selected item a Yellow Bar with Black Text
-    PmenuSel = { bg = "#FCE566", fg = "#121212", bold = true },
-    
-    -- 3. AUTOCOMPLETE MATCHES (Optional safety)
-    -- Ensures the letters you typed (matched) stay visible inside the yellow bar
-    CmpItemAbbrMatch = { fg = "#FCE566", bold = true },         -- Unselected match = Yellow
-    CmpItemAbbrMatchFuzzy = { fg = "#FCE566", bold = true },    -- Unselected fuzzy = Yellow
-    
-    -- When selected, force the "matched" text to be black too so it doesn't disappear
-    CmpItemAbbrMatchSel = { fg = "#000000", bold = true }, 
-  },
+  -- hl_override = {
+  --   -- 1. CURSOR LINE NUMBER (Your existing one)
+  --   CursorLineNr = { fg = "#FCE566", bold = true },
+  --
+  --   -- 2. POPUP MENU SELECTION (The Fix)
+  --   -- This makes the selected item a Yellow Bar with Black Text
+  --   PmenuSel = { bg = "#FCE566", fg = "#121212", bold = true },
+  --
+  --   -- 3. AUTOCOMPLETE MATCHES (Optional safety)
+  --   -- Ensures the letters you typed (matched) stay visible inside the yellow bar
+  --   CmpItemAbbrMatch = { fg = "#FCE566", bold = true },         -- Unselected match = Yellow
+  --   CmpItemAbbrMatchFuzzy = { fg = "#FCE566", bold = true },    -- Unselected fuzzy = Yellow
+  --
+  --   -- When selected, force the "matched" text to be black too so it doesn't disappear
+  --   CmpItemAbbrMatchSel = { fg = "#000000", bold = true }, 
+  -- },
   -- hl_override = {},
 	-- hl_override = {
 	-- 	Comment = { italic = true },

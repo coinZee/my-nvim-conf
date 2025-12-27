@@ -14,6 +14,8 @@ map("i", "jk", "<ESC>")
 map("n", "<leader>T", "<cmd>CodeCompanionChat Toggle<cr>", { desc = "Toggle Code Companion Chat" })
 map("t", "jk", [[<C-\><C-n>]], { noremap = true })
 map("n", "<leader>fc", function() vim.lsp.buf.code_action() end, { desc = "LSP code action" })
+map("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })
+
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 
 
